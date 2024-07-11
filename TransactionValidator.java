@@ -14,9 +14,9 @@ public class TransactionValidator {
     private static final String BIT_10 = "10";
     private static final String BIT_12 = "12";
     private static final String START_PROCCESS = "Iniciando validateInformations com Bit02: ";
-    private static final String VALUES_NOT_FILLED = "Valores não preenchidos";
+    private static final String VALUES_NOT_FILLED = "Valores nao preenchidos";
     private static final String VALIDATION_FAIL = "Validacao falhou";
-    private static final String VALIDATED_TRANSACTION = "Transação validada para Bit02: ";
+    private static final String VALIDATED_TRANSACTION = "Transacao validada para Bit02: ";
     private static final List<String> listValues = List.of(BIT_02, BIT_03, BIT_04, BIT_05, BIT_12);
 
     public void validateInformations(ISOModel m) {
